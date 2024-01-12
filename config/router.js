@@ -21,11 +21,11 @@ const router = createBrowserRouter([
         element: <Contact />,
     },
     {
-        path: "ad-detail/:adId",
+        path: "/header",
         element: <Header />,
     },
     {
-        path: "/",
+        path: "ad-detail/:adId",
         element: <Detail />,
     },
 ]);
